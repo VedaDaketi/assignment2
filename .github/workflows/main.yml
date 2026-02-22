@@ -12,4 +12,4 @@ jobs:
         key: cache-241c041
         path: ~/.npm
     - name: Echo cache result
-       run: echo "Cache outcome: ${{ steps.cache-step.outputs.cache-hit }}"
+      run: echo "Cache outcome: ${{ steps.cache-step.outputs.cache-hit }}"
